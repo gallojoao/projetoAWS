@@ -1,0 +1,51 @@
+body {
+  font-family: 'Helvetica';
+  background: url('images/fundo.png') no-repeat center center fixed;
+  background-size: cover;
+}
+header {
+  display: flex; /* coloca logo e menu lado a lado */
+  justify-content: space-between; /* espaço entre eles */
+  align-items: center; /* alinhamento vertical */
+  padding: 2px 5px; /* espaço interno */
+  background-color: rgba(223, 209, 161, 0.8); /* bege com transparência */
+  position: fixed; /* sempre no topo */
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* sombra leve */
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #8B4513; /* marrom clássico */
+}
+
+nav {
+  margin-left: auto; /* empurra o menu para a direita */
+  padding-right: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-left: 0px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #8B4513;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #A0522D; /* tom mais claro no hover */
+}
+
+.receitas {
+    padding-top: 10050 px;
+    width: 100vw;  /* 100% da largura da janela */
+  height: 150px;  /* metade da altura da janela */
+  background-color: orange;
+}
