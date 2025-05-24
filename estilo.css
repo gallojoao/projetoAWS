@@ -1,21 +1,23 @@
 body {
-  font-family: 'Helvetica';
+  font-family: 'Helvetica', sans-serif;
   background: url('images/fundo.png') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
+  padding: 0;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2px 5px;
+  padding: 10px 5px;
   background-color: rgba(223, 209, 161, 0.8);
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
 }
 
 .logo {
@@ -23,17 +25,16 @@ header {
   font-weight: bold;
   color: #8B4513;
 }
-
 nav {
-  margin-left: auto;
+  margin-left: auto; /* empurra o menu para a direita */
   padding-right: 20px;
 }
-
 nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li a {
@@ -47,21 +48,108 @@ nav ul li a:hover {
   color: #A0522D;
 }
 
-body {
+/* CORREÇÃO: espaço superior suficiente para o header */
+.receitas {
+  width: 80%;
+  max-width: 1200px;
+  margin: 100px auto 0 auto; /* Ajuste conforme a altura real do header */
+  background-color: rgba(223, 209, 161, 0.95);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.imagem {
+  padding: 25px;
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
-.receitas {
+.imagem img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ingredientes {
   background-color: rgba(223, 209, 161, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 30px auto;
 }
 
- .bolofofinho {
-  padding: 25px;
-  width: 75vh;
-  margin: 0 auto;      /* centraliza a div em relação ao parent */
-  text-align: center;  /* centraliza o conteúdo dentro */
+.ingredientes h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #8B4513;
+  font-weight: bold;
+  border-bottom: 2px solid #8B4513;
+  padding-bottom: 2px;
 }
 
+.lista-ingredientes {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.lista-ingredientes ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.lista-ingredientes li {
+  font-size: 18px;
+  color: #4B3621;
+  margin-bottom: 10px;
+}
+.modo-preparo {
+  background-color: rgba(223, 209, 161, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 30px auto;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.modo-preparo h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color:#8B4513;
+  border-bottom: 2px solid #8B4513;
+  padding-bottom: 5px;
+}
+
+.tempo-preparo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #6e3710;
+}
+
+.tempo-preparo .icone {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.lista-preparo {
+  list-style: decimal inside;
+  counter-reset: step;
+  padding-left: 0;
+}
+
+.lista-preparo li {
+  padding-top: 5px;
+  font-size: 18px;
+  color: #4B3621;
+  margin-bottom: 10px;
+}
+
+.lista-preparo .destaque {
+  color: #8B4513; /* tom laranja destacado */
+  font-weight: bold;
+}
