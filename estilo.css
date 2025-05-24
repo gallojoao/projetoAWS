@@ -2,34 +2,38 @@ body {
   font-family: 'Helvetica';
   background: url('images/fundo.png') no-repeat center center fixed;
   background-size: cover;
+  margin: 0;
 }
+
 header {
-  display: flex; /* coloca logo e menu lado a lado */
-  justify-content: space-between; /* espaço entre eles */
-  align-items: center; /* alinhamento vertical */
-  padding: 2px 5px; /* espaço interno */
-  background-color: rgba(223, 209, 161, 0.8); /* bege com transparência */
-  position: fixed; /* sempre no topo */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 5px;
+  background-color: rgba(223, 209, 161, 0.8);
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* sombra leve */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #8B4513; /* marrom clássico */
+  color: #8B4513;
 }
 
 nav {
-  margin-left: auto; /* empurra o menu para a direita */
+  margin-left: auto;
   padding-right: 20px;
 }
+
 nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 nav ul li a {
@@ -40,12 +44,24 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #A0522D; /* tom mais claro no hover */
+  color: #A0522D;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .receitas {
-    padding-top: 10050 px;
-    width: 100vw;  /* 100% da largura da janela */
-  height: 150px;  /* metade da altura da janela */
-  background-color: orange;
+  background-color: rgba(223, 209, 161, 0.8);
 }
+
+ .bolofofinho {
+  padding: 25px;
+  width: 75vh;
+  margin: 0 auto;      /* centraliza a div em relação ao parent */
+  text-align: center;  /* centraliza o conteúdo dentro */
+}
+
