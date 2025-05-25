@@ -159,3 +159,70 @@ nav ul li a:hover {
   color: #8B4513; /* tom laranja destacado */
   font-weight: bold;
 }
+.contato {
+  background-color: rgba(223, 209, 161, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 120px auto 30px; /* adiciona espaço abaixo do header fixo */
+  font-family: 'Helvetica', sans-serif;
+}
+
+.contato h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #8B4513;
+  font-weight: bold;
+}
+
+.contato p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #4B3621;
+}
+
+.contato form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contato label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #4B3621;
+}
+
+.contato input,
+.contato textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contato button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #8B4513;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contato button:hover {
+  background-color: #A0522D;
+}
+
+.informacoes-contato {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #4B3621;
+}
+
+.informacoes-contato h3 {
+  margin-bottom: 10px;
+  color: #8B4513;
+}
