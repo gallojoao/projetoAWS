@@ -50,12 +50,14 @@ nav ul li a:hover {
 
 /* CORREÇÃO: espaço superior suficiente para o header */
 .receitas {
+   border-radius: 10px;
   width: 80%;
   max-width: 1200px;
   margin: 100px auto 0 auto; /* Ajuste conforme a altura real do header */
   background-color: rgba(223, 209, 161, 0.95);
   padding: 20px;
   box-sizing: border-box;
+  box-shadow: 0 4px 10px rgba(139, 69, 19, 0.2);
 }
 
 .imagem {
@@ -160,12 +162,14 @@ nav ul li a:hover {
   font-weight: bold;
 }
 .contato {
-  background-color: rgba(223, 209, 161, 0.8);
+  background-color: rgba(223, 209, 161);
   padding: 30px;
-  border-radius: 10px;
+ 
   width: 80%;
   margin: 120px auto 30px; /* adiciona espaço abaixo do header fixo */
   font-family: 'Helvetica', sans-serif;
+  box-shadow: 0 4px 10px rgba(139, 69, 19, 0.2);
+  border-radius: 10px;
 }
 
 .contato h2 {
