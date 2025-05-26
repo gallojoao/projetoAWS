@@ -58,6 +58,8 @@ nav ul li a:hover {
   padding: 20px;
   box-sizing: border-box;
   box-shadow: 0 4px 10px rgba(139, 69, 19, 0.2);
+    margin: 120px auto 60px; /* adiciona espaço abaixo do header fixo */
+
 }
 
 .imagem {
@@ -72,6 +74,9 @@ nav ul li a:hover {
   max-width: 100%;
   height: auto;
   display: block;
+  border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(139, 69, 19, 0.5);
+
 }
 
 .ingredientes {
