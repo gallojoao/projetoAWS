@@ -1,11 +1,11 @@
 
 # Receitas da Vovó
 
-Esse projeto é um projeto acadêmico realizado para a aula de Tecnologias em Nuvem, foi meu primeiro projeto em que utilizei tecnologias AWS como S3 para hospedagem de sites.
+Este projeto acadêmico, desenvolvido para a disciplina de Tecnologias em Nuvem, marca minha primeira experiência utilizando tecnologias AWS, como o S3 para hospedagem de sites.
 
 ### Contexto
 
-O site "Receitas da Vovó" tem como intuito perpetuar nossas *comfort foods* que nossas avós faziam, além também de perpetuar seu legado, sendo uma forma de sempre lembrarmos, com carinho, delas.
+O site "Receitas da Vovó" tem como intuito perpetuar as comfort foods que nossas avós preparavam e, assim, eternizar seu legado. É uma forma carinhosa de sempre nos lembrarmos delas.
 
 ### O site
 
@@ -18,15 +18,15 @@ Clique [aqui](http://receitasdavovo.s3-website.us-east-2.amazonaws.com/) para ac
 
 ## Autores
 
-A Idealização do projeto foi feita em conjunto com meu colega Breno, juntos formamos as ideias das quais foram a base do projeto
+A idealização do projeto foi feita em conjunto com meu colega Breno. Juntos, formulamos as ideias que serviram como base para o desenvolvimento.
 
-Segue nosso LinkedIn:
+Confira, também, nosso LinkedIn:
 
 - [João Gallo](https://www.linkedin.com/in/joao-gallo/)
 - [Breno Bacelar](https://www.linkedin.com/in/brebacelar/)
 
 ## Screenshots
-Abaixo, segue as Screenshots.
+Abaixo, segue as capturas de tela do projeto.
 
 ![Tela Inicial](https://i.postimg.cc/rwx829rB/Captura-de-tela-2025-06-26-153737.png)
 
